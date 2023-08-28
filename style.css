@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rosybrown;
+    position: absolute;
+}
+.container{
+    margin-left: 480px;
+    padding: 50px 60px 30px;
+    width: 500px;
+    position: absolute;
+    background-color: lightslategrey;
+    display: inline-block;
+    transform: translateY(50%);
+    border-radius: 15px;
+    
+    
+}
+label{
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: large;
+    font-weight: 500px;
+
+}
+.cel,.fahr{
+    border-radius: 6px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    padding: 20px;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    outline: none;
+}
+.in,.in2{
+    margin-left: 120px;
+} 
+h1{
+    font-weight: bold;
+    padding-left: 500px;
+    padding-top: 100px;
+} 
